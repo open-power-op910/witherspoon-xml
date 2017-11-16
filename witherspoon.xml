@@ -17309,6 +17309,10 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_DISABLE</id>
+		<default>ON</default>
+	</attribute>
+	<attribute>
+		<id>VDM_ENABLE</id>
 		<default>OFF</default>
 	</attribute>
 	<attribute>
