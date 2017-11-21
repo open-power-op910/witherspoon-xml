@@ -5134,14 +5134,14 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>VDM_ENABLE</id>
+	<id>SYSTEM_VDM_DISABLE</id>
 		<enumerator>
 		<name>OFF</name>
-		<value>0x00</value>
+		<value>0x0</value>
 		</enumerator>
 		<enumerator>
 		<name>ON</name>
-		<value>0x01</value>
+		<value>0x1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
