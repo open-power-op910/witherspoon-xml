@@ -17312,8 +17312,8 @@
 		<default>ON</default>
 	</attribute>
 	<attribute>
-		<id>VDM_ENABLE</id>
-		<default>OFF</default>
+		<id>SYSTEM_VDM_DISABLE</id>
+		<default>ON</default>
 	</attribute>
 	<attribute>
 		<id>SYS_FORCE_ALL_CORES</id>
