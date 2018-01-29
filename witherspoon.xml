@@ -16974,7 +16974,7 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_VRM_READ_TIMEOUT_SEC</id>
-		<default>1</default>
+		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_IN_MIRROR_MEM</id>
@@ -17471,7 +17471,7 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_VRM_VDD_READ_TIMEOUT_SEC</id>
-		<default>1</default>
+		<default>5</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
