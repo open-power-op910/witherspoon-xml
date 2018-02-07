@@ -927,6 +927,29 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>CEN_VPD_DIMM_RCD_IBT</id>
+		<enumerator>
+		<name>IBT_OFF</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>IBT_150</name>
+		<value>150</value>
+		</enumerator>
+		<enumerator>
+		<name>IBT_200</name>
+		<value>200</value>
+		</enumerator>
+		<enumerator>
+		<name>IBT_300</name>
+		<value>300</value>
+		</enumerator>
+		<enumerator>
+		<name>IBT_100</name>
+		<value>100</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>CEN_VPD_DIMM_RCD_OUTPUT_TIMING</id>
 		<enumerator>
 		<name>3T</name>
@@ -1975,6 +1998,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>ENABLE_MEM_EARLY_DATA_SCOM</id>
+		<enumerator>
+		<name>OFF</name>
+		<value>0x0</value>
+		</enumerator>
+		<enumerator>
+		<name>ON</name>
+		<value>0x1</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>ENC_TYPE</id>
 		<enumerator>
 		<name>CEC</name>
@@ -2095,6 +2129,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>FREQ_MCA_MHZ</id>
+		<enumerator>
+		<name>2400</name>
+		<value>2400</value>
+		</enumerator>
+		<enumerator>
+		<name>2000</name>
+		<value>2000</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>FREQ_PB_MHZ</id>
 		<enumerator>
 		<name>1866</name>
@@ -2103,6 +2148,33 @@
 		<enumerator>
 		<name>1600</name>
 		<value>1600</value>
+		</enumerator>
+		<enumerator>
+		<name>2400</name>
+		<value>2400</value>
+		</enumerator>
+		<enumerator>
+		<name>2133</name>
+		<value>2133</value>
+		</enumerator>
+		<enumerator>
+		<name>2000</name>
+		<value>2000</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>FREQ_PB_MHZ_POUNDV_FALLBACK</id>
+		<enumerator>
+		<name>1866</name>
+		<value>1866</value>
+		</enumerator>
+		<enumerator>
+		<name>1600</name>
+		<value>1600</value>
+		</enumerator>
+		<enumerator>
+		<name>NO_FALLBACK</name>
+		<value>0</value>
 		</enumerator>
 		<enumerator>
 		<name>2400</name>
@@ -2415,6 +2487,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>IO_O_CHANNEL_TYPE</id>
+		<enumerator>
+		<name>BOARD</name>
+		<value>0x0</value>
+		</enumerator>
+		<enumerator>
+		<name>CABLE</name>
+		<value>0x1</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>IO_O_DEBUG</id>
 		<enumerator>
 		<name>TRUE</name>
@@ -2449,6 +2532,25 @@
 		<enumerator>
 		<name>NONE</name>
 		<value>0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>IO_XBUS_CHAN_EQ</id>
+		<enumerator>
+		<name>LOWER_GAIN_PEAK_INITS</name>
+		<value>0x04</value>
+		</enumerator>
+		<enumerator>
+		<name>DIS_RX_LTE</name>
+		<value>0x01</value>
+		</enumerator>
+		<enumerator>
+		<name>DIS_TX_AC_BOOST</name>
+		<value>0x02</value>
+		</enumerator>
+		<enumerator>
+		<name>LOWER_VGA_GAIN_TARGET</name>
+		<value>0x08</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -2580,6 +2682,21 @@
 		<enumerator>
 		<name>ACTIVITY</name>
 		<value>6</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>LINK_TRAIN</id>
+		<enumerator>
+		<name>ODD_ONLY</name>
+		<value>0x2</value>
+		</enumerator>
+		<enumerator>
+		<name>BOTH</name>
+		<value>0x0</value>
+		</enumerator>
+		<enumerator>
+		<name>EVEN_ONLY</name>
+		<value>0x1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -4360,14 +4477,6 @@
 		<value>0xCC03</value>
 		</enumerator>
 		<enumerator>
-		<name>HOST_AUTO_REBOOT_CONTROL</name>
-		<value>0x0921</value>
-		</enumerator>
-		<enumerator>
-        	<name>HB_VOLATILE</name>
-        	<value>0x0C21</value>  
-        	</enumerator>
-		<enumerator>
 		<name>PROC_STATE</name>
 		<value>0x0703</value>
 		</enumerator>
@@ -4630,6 +4739,17 @@
 		<enumerator>
 		<name>SCAN_RING_NO_DEBUG</name>
 		<value>0x00</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>SYSTEM_VDM_DISABLE</id>
+		<enumerator>
+		<name>OFF</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>ON</name>
+		<value>0x01</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -5138,14 +5258,14 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>SYSTEM_VDM_DISABLE</id>
+	<id>VDM_ENABLE</id>
 		<enumerator>
 		<name>OFF</name>
-		<value>0x0</value>
+		<value>0x00</value>
 		</enumerator>
 		<enumerator>
 		<name>ON</name>
-		<value>0x1</value>
+		<value>0x01</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -5500,6 +5620,20 @@
 	<property>
 	<id>IPMI_SENSOR_ID</id>
 	<value>0x03</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/hb_volatile_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xDB</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/host_auto_reboot_control_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xDA</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -11246,7 +11380,7 @@
 	<property>
 	<id>BLINK_RATE</id>
 	<value></value>
-	</property>/sta-0
+	</property>
 	<property>
 	<id>FUNCTION</id>
 	<value></value>
@@ -11301,13 +11435,6 @@
 	<property>
 	<id>IPMI_SENSOR_ID</id>
 	<value>0x59</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/vrm_vdd_temp_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0xe0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -12990,6 +13117,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/vrm_vdd_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xe0</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/xbus1</id>
 	<property>
 	<id>DIRECTION</id>
@@ -13048,13 +13182,6 @@
 	<property>
 	<id>IPMI_SENSOR_ID</id>
 	<value>0xa3</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_m/vrm_vdd_temp_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0xe1</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14607,6 +14734,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_m/vrm_vdd_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xe1</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_m/xbus1</id>
 	<property>
 	<id>DIRECTION</id>
@@ -15942,24 +16076,27 @@
 	<value>0xD7</value>
 	</property>
 </globalSetting>
-<globalSetting>
-	<id>/sys-0/host_auto_reboot_control_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0xDA</value>
-	</property>
-</globalSetting>
-<globalSetting>
-    <id>/sys-0/hb_volatile_sensor</id>
-    <property>
-    <id>IPMI_SENSOR_ID</id>
-    <value>0xDB</value>
-    </property>
-</globalSetting>
 </globalSettings>
 <attributeGroups>
 <attributeGroup>
 	<id>SYS_POLICIES</id>
+	<attribute>REDUNDANT_FSPS</attribute>
+	<attribute>AVERAGE_IPL_TIME</attribute>
+	<attribute>LED_STRATEGY</attribute>
+	<attribute>power-def-filenames</attribute>
+	<attribute>powr-vrm-xml-filenames</attribute>
+	<attribute>LED_ON_DEFAULT_GPIO_VALUE</attribute>
+	<attribute>MEM_MIRRORING_ALLOWED</attribute>
+	<attribute>MEM_MIRRORING_ENABLE_DEFAULT</attribute>
+	<attribute>MEM_POWER_CONTROL_USAGE</attribute>
+	<attribute>OCC_LOAD_TIMEOUT</attribute>
+	<attribute>OCC_RESET_TIMEOUT</attribute>
+	<attribute>FREQ_PB_HFT</attribute>
+	<attribute>FREQ_X_HFT</attribute>
+	<attribute>FREQ_NEST_HFT</attribute>
+	<attribute>PCIE_DEFAULT_HDDW_SLOT_COUNT</attribute>
+	<attribute>PCIE_MIN_HDDW_SLOT_COUNT</attribute>
+	<attribute>PCIE_MAX_HDDW_SLOT_COUNT</attribute>
 	<attribute>REDUNDANT_FSPS</attribute>
 	<attribute>AVERAGE_IPL_TIME</attribute>
 	<attribute>LED_STRATEGY</attribute>
@@ -16029,6 +16166,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>ALLOW_CALLHOME_ESELS_TO_BMC</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>ALL_MCS_IN_INTERLEAVING_GROUP</id>
 		<default>0x00</default>
 	</attribute>
@@ -16071,6 +16212,10 @@
 	<attribute>
 		<id>BMC_FRU_ID</id>
 		<default>26</default>
+	</attribute>
+	<attribute>
+		<id>BMC_MAX_ERROR_LOG_SIZE</id>
+		<default>2048</default>
 	</attribute>
 	<attribute>
 		<id>BOOT_FLAGS</id>
@@ -16233,6 +16378,10 @@
 		<default>0x10</default>
 	</attribute>
 	<attribute>
+		<id>ENABLE_MEM_EARLY_DATA_SCOM</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>EXECUTION_PLATFORM</id>
 		<default></default>
 	</attribute>
@@ -16261,6 +16410,10 @@
 		<default>0x00</default>
 	</attribute>
 	<attribute>
+		<id>FABRIC_PRESENT_GROUPS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FIELD_TH_P8EX_L2_COL_REPAIRS</id>
 		<default>7</default>
 	</attribute>
@@ -16285,6 +16438,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>FREQ_MCA_MHZ</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FREQ_MEM_REFCLOCK</id>
 		<default></default>
 	</attribute>
@@ -16299,6 +16456,10 @@
 	<attribute>
 		<id>FREQ_PB_MHZ</id>
 		<default>2000</default>
+	</attribute>
+	<attribute>
+		<id>FREQ_PB_MHZ_POUNDV_FALLBACK</id>
+		<default>NO_FALLBACK</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_PCIE_MHZ</id>
@@ -16407,7 +16568,7 @@
 	</attribute>
 	<attribute>
 		<id>IVRM_STRENGTH_LOOKUP</id>
-		<default>0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IVRM_VIN_MAX_MV</id>
@@ -16415,7 +16576,7 @@
 	</attribute>
 	<attribute>
 		<id>IVRM_VIN_MULTIPLIER</id>
-		<default>0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>LED_ON_DEFAULT_GPIO_VALUE</id>
@@ -16462,8 +16623,20 @@
 		<default>0x40000</default>
 	</attribute>
 	<attribute>
+		<id>MEM_MIRRORING_ALLOWED</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MEM_MIRRORING_ENABLE_DEFAULT</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MEM_MIRROR_PLACEMENT_POLICY</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MEM_POWER_CONTROL_USAGE</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MIRROR_BASE_ADDRESS</id>
@@ -16925,14 +17098,6 @@
 		<default>240</default>
 	</attribute>
 	<attribute>
-		<id>PROC_SOCKET_POWER_WATTS</id>
-		<default>250</default>
-	</attribute>
-	<attribute>
-		<id>PROC_MHZ_PER_WATT</id>
-		<default>28</default>
-	</attribute>
-	<attribute>
 		<id>OPEN_POWER_PM_MODE</id>
 		<default>1</default>
 	</attribute>
@@ -16975,6 +17140,26 @@
 	<attribute>
 		<id>OPEN_POWER_VRM_READ_TIMEOUT_SEC</id>
 		<default>5</default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_VRM_VDD_DVFS_TEMP_DEG_C</id>
+		<default>95</default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_VRM_VDD_ERROR_TEMP_DEG_C</id>
+		<default>105</default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_VRM_VDD_READ_TIMEOUT_SEC</id>
+		<default>5</default>
+	</attribute>
+	<attribute>
+		<id>O_EREPAIR_THRESHOLD_FIELD</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>O_EREPAIR_THRESHOLD_MNFG</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_IN_MIRROR_MEM</id>
@@ -17162,6 +17347,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>PROC_MHZ_PER_WATT</id>
+		<default>28</default>
+	</attribute>
+	<attribute>
 		<id>PROC_NPU_MMIO_BAR_BASE_ADDR_OFFSET</id>
 		<default>0x0000030200000000</default>
 	</attribute>
@@ -17202,6 +17391,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>PROC_SOCKET_POWER_WATTS</id>
+		<default>250</default>
+	</attribute>
+	<attribute>
 		<id>PROC_XSCOM_BAR_BASE_ADDR_OFFSET</id>
 		<default></default>
 	</attribute>
@@ -17224,6 +17417,10 @@
 	<attribute>
 		<id>REDUNDANT_FSPS</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>REPORT_THROTTLE_BELOW_NOMINAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>REQUIRED_SYNCH_MODE</id>
@@ -17346,13 +17543,13 @@
 		<default>ibm,witherspoon</default>
 	</attribute>
 	<attribute>
-		<id>SYSTEM_WOF_DISABLE</id>
+		<id>SYSTEM_VDM_DISABLE</id>
 		<default>OFF</default>
 	</attribute>
 	<attribute>
-        	<id>SYSTEM_VDM_DISABLE</id>
-	   	<default>OFF</default>
-    	</attribute>
+		<id>SYSTEM_WOF_DISABLE</id>
+		<default>OFF</default>
+	</attribute>
 	<attribute>
 		<id>SYS_FORCE_ALL_CORES</id>
 		<default></default>
@@ -17376,6 +17573,10 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>SYS</default>
+	</attribute>
+	<attribute>
+		<id>USE_TCES_FOR_DMAS</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VDM_DROOP_EXTREME_OVERRIDE</id>
@@ -17460,18 +17661,6 @@
 	<attribute>
 		<id>powr-vrm-xml-filenames</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>OPEN_POWER_VRM_VDD_DVFS_TEMP_DEG_C</id>
-		<default>95</default>
-	</attribute>
-	<attribute>
-		<id>OPEN_POWER_VRM_VDD_ERROR_TEMP_DEG_C</id>
-		<default>105</default>
-	</attribute>
-	<attribute>
-		<id>OPEN_POWER_VRM_VDD_READ_TIMEOUT_SEC</id>
-		<default>5</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -17913,6 +18102,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_V3_gpion2_pwm2/chip-bmc-ast2500.pingroup_gpion2/chip-bmc-ast2500.GPION2 => rear-fault-0/led_enable</bus_id>
@@ -17929,6 +18122,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17947,6 +18144,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_U3_gpion3_pwm3/chip-bmc-ast2500.pingroup_gpion3/chip-bmc-ast2500.GPION3 => rear-power-2/led_enable</bus_id>
@@ -17963,6 +18164,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17981,6 +18186,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>pcieslot-1/pciecard-0/presence => proc_socket-1/module-0/p9_proc_m/e2a-presence</bus_id>
@@ -17997,6 +18206,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18015,6 +18228,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/module-0/p9_proc_m/e2b-perst => pcieslot-0/pciecard-0/perst</bus_id>
@@ -18031,6 +18248,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18049,6 +18270,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/module-0/p9_proc_m/e0-perst => pcieslot-3/pciecard-0/perst</bus_id>
@@ -18065,6 +18290,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18083,6 +18312,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>pcieslot-2/pciecard-0/presence2 => proc_socket-1/module-0/p9_proc_m/e2a-presence</bus_id>
@@ -18099,6 +18332,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18117,6 +18354,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/module-0/p9_proc_m/e2a-perst => pcieslot-2/pciecard-0/perst2</bus_id>
@@ -18133,6 +18374,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18151,6 +18396,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/module-0/p9_proc_m/e2b-perst => PEX8725-0/PEX8725.vs0_perst</bus_id>
@@ -18167,6 +18416,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18185,6 +18438,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/module-0/p9_proc_m/e2c-perst => PEX8725-0/PEX8725.vs0_perst</bus_id>
@@ -18201,6 +18458,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18219,6 +18480,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>PEX8725-0/PEX8725.port_good-0 => obusslot-0/gv100card-0/perst</bus_id>
@@ -18235,6 +18500,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18253,6 +18522,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>PEX8725-0/PEX8725.port_good-2 => obusslot-2/gv100card-0/perst</bus_id>
@@ -18269,6 +18542,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18287,6 +18564,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>PEX8725-0/PEX8725.port_good-5 => obusslot-4/gv100card-0/perst</bus_id>
@@ -18303,6 +18584,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18321,6 +18606,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/module-0/p9_proc_m/e1a-perst => boxconn-6/boxelder-1/TUSB7340-0/TUSB7340.RESET</bus_id>
@@ -18337,6 +18626,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18355,6 +18648,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/module-0/p9_proc_m/e2c-perst => boxconn-6/boxelder-1/BCM5719-0/perst</bus_id>
@@ -18371,6 +18668,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18389,6 +18690,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/module-0/p9_proc_m/i2c-master-lightpath => planar_vpd-0/i2c-slave</bus_id>
@@ -18405,6 +18710,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -18436,6 +18745,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>DIMM_SPD</default>
 		</bus_attribute>
@@ -18463,6 +18776,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -18494,6 +18811,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>DIMM_SPD</default>
 		</bus_attribute>
@@ -18521,6 +18842,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -18552,6 +18877,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>DIMM_SPD</default>
 		</bus_attribute>
@@ -18579,6 +18908,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -18610,6 +18943,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>DIMM_SPD</default>
 		</bus_attribute>
@@ -18637,6 +18974,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -18668,6 +19009,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>DIMM_SPD</default>
 		</bus_attribute>
@@ -18695,6 +19040,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -18726,6 +19075,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>DIMM_SPD</default>
 		</bus_attribute>
@@ -18753,6 +19106,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -18784,6 +19141,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>DIMM_SPD</default>
 		</bus_attribute>
@@ -18811,6 +19172,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -18842,6 +19207,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>DIMM_SPD</default>
 		</bus_attribute>
@@ -18869,6 +19238,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -18900,6 +19273,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -18927,6 +19304,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -18958,6 +19339,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -18985,6 +19370,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -19016,6 +19405,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -19043,6 +19436,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -19074,6 +19471,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -19101,6 +19502,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -19132,6 +19537,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -19159,6 +19568,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -19190,6 +19603,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -19217,6 +19634,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -19248,6 +19669,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -19275,6 +19700,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -19306,6 +19735,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -19333,6 +19766,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -19364,6 +19801,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -19391,6 +19832,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -19422,6 +19867,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -19449,6 +19898,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -19480,6 +19933,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -19507,6 +19964,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -19538,6 +19999,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -19565,6 +20030,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -19596,6 +20065,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>NVLINK</default>
 		</bus_attribute>
@@ -19623,6 +20096,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -19654,6 +20131,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>NVLINK</default>
 		</bus_attribute>
@@ -19681,6 +20162,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -19712,6 +20197,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>NVLINK</default>
 		</bus_attribute>
@@ -19741,6 +20230,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>NVLINK</default>
 		</bus_attribute>
@@ -19768,6 +20261,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -19799,6 +20296,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -19826,6 +20327,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -19857,6 +20362,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>TPM</default>
 		</bus_attribute>
@@ -19884,6 +20393,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -20651,6 +21164,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>LANE_REVERSAL</id>
 		<default>00</default>
 		</bus_attribute>
@@ -20674,6 +21191,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
@@ -20701,6 +21222,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>LANE_REVERSAL</id>
 		<default>00</default>
 		</bus_attribute>
@@ -20724,6 +21249,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
@@ -20751,6 +21280,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>LANE_REVERSAL</id>
 		<default>00</default>
 		</bus_attribute>
@@ -20774,6 +21307,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
@@ -20801,6 +21338,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>LANE_REVERSAL</id>
 		<default>00</default>
 		</bus_attribute>
@@ -20824,6 +21365,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
@@ -20851,6 +21396,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>LANE_REVERSAL</id>
 		<default>00</default>
 		</bus_attribute>
@@ -20874,6 +21423,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
@@ -20901,6 +21454,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>LANE_REVERSAL</id>
 		<default>00</default>
 		</bus_attribute>
@@ -20924,6 +21481,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
@@ -20951,6 +21512,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>LANE_REVERSAL</id>
 		<default>00</default>
 		</bus_attribute>
@@ -20974,6 +21539,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
@@ -21001,6 +21570,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>LANE_REVERSAL</id>
 		<default>00</default>
 		</bus_attribute>
@@ -21026,6 +21599,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>LANE_REVERSAL</id>
 		<default>01</default>
 		</bus_attribute>
@@ -21049,6 +21626,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
@@ -21079,6 +21660,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/module-0/p9_proc_m/xbus1 => proc_socket-1/module-0/p9_proc_m/xbus1</bus_id>
@@ -21091,6 +21676,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 </targetInstance>
@@ -21620,7 +22209,7 @@
 	</attribute>
 	<attribute>
 		<id>FSP_BASE_ADDR</id>
-		<default>0,0x0006030100000000,0x200000000000</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ADDR</id>
@@ -21802,24 +22391,28 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>NO_APSS_PROC_POWER_VCS_VIO_WATTS</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>NVIDIA_NPU_PRIVILEGED_ADDR</id>
-		<default>0,0x0006030200000000,0x200000000000</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>NVIDIA_NPU_USER_REG_ADDR</id>
-		<default>0,0x0006030201000000,0x200000000000</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>NVIDIA_PHY0_REG_ADDR</id>
-		<default>0,0x0006030201200000,0x200000000000</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>NVIDIA_PHY1_REG_ADDR</id>
-		<default>0,0x0006030201400000,0x200000000000</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>NX_RNG_ADDR</id>
-		<default>0,0x00060302031D0000,0x200000000000</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>OB0_PLL_BUCKET</id>
@@ -22116,11 +22709,11 @@
 	</attribute>
 	<attribute>
 		<id>VAS_HYPERVISOR_WINDOW_CONTEXT_ADDR</id>
-		<default>0,0x0006013000000000,0x200000000000</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>VAS_USER_WINDOW_CONTEXT_ADDR</id>
-		<default>0,0x0006013100000000,0x200000000000</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>VCS_AVSBUS_BUSNUM</id>
@@ -34192,6 +34785,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IO_XBUS_CHAN_EQ</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
 		<id>IO_XBUS_TX_FFE_PRECURSOR</id>
 		<default>6</default>
 	</attribute>
@@ -34210,6 +34807,10 @@
 	<attribute>
 		<id>IO_X_MFG_MIN_EYE_WIDTH</id>
 		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>LINK_TRAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -34296,6 +34897,10 @@
 		<default>0x00000001</default>
 	</attribute>
 	<attribute>
+		<id>IO_XBUS_CHAN_EQ</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
 		<id>IO_XBUS_TX_FFE_PRECURSOR</id>
 		<default>6</default>
 	</attribute>
@@ -34314,6 +34919,10 @@
 	<attribute>
 		<id>IO_X_MFG_MIN_EYE_WIDTH</id>
 		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>LINK_TRAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -34407,6 +35016,10 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
+		<id>IO_O_CHANNEL_TYPE</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
 		<id>IO_O_DEBUG</id>
 		<default>0x0</default>
 	</attribute>
@@ -34417,6 +35030,10 @@
 	<attribute>
 		<id>IO_O_MFG_MIN_EYE_WIDTH</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>LINK_TRAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -34515,6 +35132,10 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
+		<id>IO_O_CHANNEL_TYPE</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
 		<id>IO_O_DEBUG</id>
 		<default>0x0</default>
 	</attribute>
@@ -34525,6 +35146,10 @@
 	<attribute>
 		<id>IO_O_MFG_MIN_EYE_WIDTH</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>LINK_TRAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -34627,6 +35252,10 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
+		<id>IO_O_CHANNEL_TYPE</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
 		<id>IO_O_DEBUG</id>
 		<default>0x0</default>
 	</attribute>
@@ -34637,6 +35266,10 @@
 	<attribute>
 		<id>IO_O_MFG_MIN_EYE_WIDTH</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>LINK_TRAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -34739,6 +35372,10 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
+		<id>IO_O_CHANNEL_TYPE</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
 		<id>IO_O_DEBUG</id>
 		<default>0x0</default>
 	</attribute>
@@ -34749,6 +35386,10 @@
 	<attribute>
 		<id>IO_O_MFG_MIN_EYE_WIDTH</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>LINK_TRAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -34850,6 +35491,10 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
+		<id>IO_O_CHANNEL_TYPE</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
 		<id>IO_O_DEBUG</id>
 		<default>0x0</default>
 	</attribute>
@@ -34860,6 +35505,10 @@
 	<attribute>
 		<id>IO_O_MFG_MIN_EYE_WIDTH</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>LINK_TRAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -34958,6 +35607,10 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
+		<id>IO_O_CHANNEL_TYPE</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
 		<id>IO_O_DEBUG</id>
 		<default>0x0</default>
 	</attribute>
@@ -34968,6 +35621,10 @@
 	<attribute>
 		<id>IO_O_MFG_MIN_EYE_WIDTH</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>LINK_TRAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -35070,6 +35727,10 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
+		<id>IO_O_CHANNEL_TYPE</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
 		<id>IO_O_DEBUG</id>
 		<default>0x0</default>
 	</attribute>
@@ -35080,6 +35741,10 @@
 	<attribute>
 		<id>IO_O_MFG_MIN_EYE_WIDTH</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>LINK_TRAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -35182,6 +35847,10 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
+		<id>IO_O_CHANNEL_TYPE</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
 		<id>IO_O_DEBUG</id>
 		<default>0x0</default>
 	</attribute>
@@ -35192,6 +35861,10 @@
 	<attribute>
 		<id>IO_O_MFG_MIN_EYE_WIDTH</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>LINK_TRAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -36746,10 +37419,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>ddr_ch4:cs0</id>
+	<id>ddr_ch6:cs0</id>
 	<type>unit-dimm_port-power9</type>
 	<is_root>false</is_root>
-	<instance_name>ddr_ch4:cs0</instance_name>
+	<instance_name>ddr_ch6:cs0</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -36826,10 +37499,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>ddr_ch4:cs1</id>
+	<id>ddr_ch6:cs1</id>
 	<type>unit-dimm_port-power9</type>
 	<is_root>false</is_root>
-	<instance_name>ddr_ch4:cs1</instance_name>
+	<instance_name>ddr_ch6:cs1</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -36984,10 +37657,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>ddr_ch5:cs0</id>
+	<id>ddr_ch7:cs0</id>
 	<type>unit-dimm_port-power9</type>
 	<is_root>false</is_root>
-	<instance_name>ddr_ch5:cs0</instance_name>
+	<instance_name>ddr_ch7:cs0</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -37064,10 +37737,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>ddr_ch5:cs1</id>
+	<id>ddr_ch7:cs1</id>
 	<type>unit-dimm_port-power9</type>
 	<is_root>false</is_root>
-	<instance_name>ddr_ch5:cs1</instance_name>
+	<instance_name>ddr_ch7:cs1</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -37322,10 +37995,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>ddr_ch6:cs0</id>
+	<id>ddr_ch4:cs0</id>
 	<type>unit-dimm_port-power9</type>
 	<is_root>false</is_root>
-	<instance_name>ddr_ch6:cs0</instance_name>
+	<instance_name>ddr_ch4:cs0</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -37402,10 +38075,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>ddr_ch6:cs1</id>
+	<id>ddr_ch4:cs1</id>
 	<type>unit-dimm_port-power9</type>
 	<is_root>false</is_root>
-	<instance_name>ddr_ch6:cs1</instance_name>
+	<instance_name>ddr_ch4:cs1</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -37560,10 +38233,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>ddr_ch7:cs0</id>
+	<id>ddr_ch5:cs0</id>
 	<type>unit-dimm_port-power9</type>
 	<is_root>false</is_root>
-	<instance_name>ddr_ch7:cs0</instance_name>
+	<instance_name>ddr_ch5:cs0</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -37640,10 +38313,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>ddr_ch7:cs1</id>
+	<id>ddr_ch5:cs1</id>
 	<type>unit-dimm_port-power9</type>
 	<is_root>false</is_root>
-	<instance_name>ddr_ch7:cs1</instance_name>
+	<instance_name>ddr_ch5:cs1</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -40997,6 +41670,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>DEFAULT_PCIE_COOLING_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>HDDW_ORDER</id>
 		<default></default>
 	</attribute>
@@ -41587,6 +42264,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>DEFAULT_PCIE_COOLING_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>HDDW_ORDER</id>
 		<default></default>
 	</attribute>
@@ -41663,6 +42344,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>DEFAULT_PCIE_COOLING_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>HDDW_ORDER</id>
 		<default></default>
 	</attribute>
@@ -41737,6 +42422,10 @@
 	<attribute>
 		<id>CONNECTOR_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>DEFAULT_PCIE_COOLING_TYPE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>HDDW_ORDER</id>
@@ -41998,6 +42687,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>bmc-0/chip-bmc-ast2500.pin_B20_gpioe0e7_uart3/chip-bmc-ast2500.pingroup_gpioe0e7/chip-bmc-ast2500.GPIOE0 => fsi_bit_bang-0/fsi_bit_bang.fsi_dat-1</bus_id>
@@ -42014,6 +42707,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -42032,6 +42729,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>bmc-0/chip-bmc-ast2500.pin_C13_gpioa6_timer7/chip-bmc-ast2500.pingroup_gpioa6/chip-bmc-ast2500.GPIOA6 => fsi_bit_bang-0/fsi_bit_bang.fsi_mux</bus_id>
@@ -42048,6 +42749,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -42066,6 +42771,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>bmc-0/chip-bmc-ast2500.pin_C12_gpioc0c7_sd1_i2c/chip-bmc-ast2500.pingroup_i2c10111213/chip-bmc-ast2500.I2C12 => rtc-0/RX8900CE.i2c</bus_id>
@@ -42082,6 +42791,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -42111,6 +42824,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -42192,6 +42909,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>bmc-0/chip-bmc-ast2500.pin_T2_gpiol0l7_uart1/chip-bmc-ast2500.pingroup_uart1/chip-bmc-ast2500.UART1 => RS232connector-0/chip-uartslave.uart-0</bus_id>
@@ -42208,6 +42929,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 </targetInstance>
@@ -87732,6 +88457,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>PCA9552-1/PCA9552.gpio-1 => fanconn-11/fan-6/fan-fault-led-7/led_enable</bus_id>
@@ -87748,6 +88477,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -87766,6 +88499,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>PCA9552-1/PCA9552.gpio-3 => fanconn-13/fan-8/fan-fault-led-9/led_enable</bus_id>
@@ -87782,6 +88519,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -87800,6 +88541,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>PCA9552-1/PCA9552.gpio-14 => front-power-3/led_enable</bus_id>
@@ -87816,6 +88561,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -87834,6 +88583,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>PCA9552-1/PCA9552.gpio-4 => fanconn-10/fan-5/presence-0/io-0</bus_id>
@@ -87850,6 +88603,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -87868,6 +88625,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>PCA9552-1/PCA9552.gpio-6 => fanconn-11/fan-6/presence-1/io-0</bus_id>
@@ -87885,6 +88646,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>PCA9552-1/PCA9552.gpio-7 => fanconn-13/fan-8/presence-3/io-0</bus_id>
@@ -87901,6 +88666,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -100462,7 +101231,7 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-        <default>PowerOn,0,50,BmcBooted,1,50,
+		<default>PowerOn,0,50,BmcBooted,1,50,
         NA,0,50,
         NA,0,50,
         NA,0,50,
