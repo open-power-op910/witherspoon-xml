@@ -15426,7 +15426,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-10/fan-5/fan-fault-led-6</id>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-10/fan-5/fan0-6</id>
 	<property>
 	<id>BLINK_RATE</id>
 	<value></value>
@@ -15445,7 +15445,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-10/fan-5/fan-fault-led-6/generic-logic-assoc</id>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-10/fan-5/fan0-6/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
 	<value></value>
@@ -15456,7 +15456,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-10/fan-5/fan-fault-led-6/led_enable</id>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-10/fan-5/fan0-6/led_enable</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -15548,7 +15548,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-11/fan-6/fan-fault-led-7</id>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-11/fan-6/fan1-7</id>
 	<property>
 	<id>BLINK_RATE</id>
 	<value></value>
@@ -15567,7 +15567,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-11/fan-6/fan-fault-led-7/generic-logic-assoc</id>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-11/fan-6/fan1-7/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
 	<value></value>
@@ -15578,7 +15578,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-11/fan-6/fan-fault-led-7/led_enable</id>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-11/fan-6/fan1-7/led_enable</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -15670,7 +15670,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-12/fan-7/fan-fault-led-8</id>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-12/fan-7/fan2-8</id>
 	<property>
 	<id>BLINK_RATE</id>
 	<value></value>
@@ -15689,7 +15689,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-12/fan-7/fan-fault-led-8/generic-logic-assoc</id>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-12/fan-7/fan2-8/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
 	<value></value>
@@ -15700,7 +15700,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-12/fan-7/fan-fault-led-8/led_enable</id>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-12/fan-7/fan2-8/led_enable</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -15792,7 +15792,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-13/fan-8/fan-fault-led-9</id>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-13/fan-8/fan3-9</id>
 	<property>
 	<id>BLINK_RATE</id>
 	<value></value>
@@ -15811,7 +15811,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-13/fan-8/fan-fault-led-9/generic-logic-assoc</id>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-13/fan-8/fan3-9/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
 	<value></value>
@@ -15822,7 +15822,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-13/fan-8/fan-fault-led-9/led_enable</id>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-13/fan-8/fan3-9/led_enable</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -88454,12 +88454,12 @@
 		<default>NA</default>
 	</attribute>
 	<bus>
-		<bus_id>PCA9552-1/PCA9552.gpio-0 => fanconn-10/fan-5/fan-fault-led-6/led_enable</bus_id>
+		<bus_id>PCA9552-1/PCA9552.gpio-0 => fanconn-10/fan-5/fan0-6/led_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>PCA9552-1/</source_path>
 		<source_target>PCA9552.gpio-0</source_target>
-		<dest_path>fanconn-10/fan-5/fan-fault-led-6/</dest_path>
+		<dest_path>fanconn-10/fan-5/fan0-6/</dest_path>
 		<dest_target>led_enable</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -88475,12 +88475,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>PCA9552-1/PCA9552.gpio-1 => fanconn-11/fan-6/fan-fault-led-7/led_enable</bus_id>
+		<bus_id>PCA9552-1/PCA9552.gpio-1 => fanconn-11/fan-6/fan1-7/led_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>PCA9552-1/</source_path>
 		<source_target>PCA9552.gpio-1</source_target>
-		<dest_path>fanconn-11/fan-6/fan-fault-led-7/</dest_path>
+		<dest_path>fanconn-11/fan-6/fan1-7/</dest_path>
 		<dest_target>led_enable</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -88496,12 +88496,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>PCA9552-1/PCA9552.gpio-2 => fanconn-12/fan-7/fan-fault-led-8/led_enable</bus_id>
+		<bus_id>PCA9552-1/PCA9552.gpio-2 => fanconn-12/fan-7/fan2-8/led_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>PCA9552-1/</source_path>
 		<source_target>PCA9552.gpio-2</source_target>
-		<dest_path>fanconn-12/fan-7/fan-fault-led-8/</dest_path>
+		<dest_path>fanconn-12/fan-7/fan2-8/</dest_path>
 		<dest_target>led_enable</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -88517,12 +88517,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>PCA9552-1/PCA9552.gpio-3 => fanconn-13/fan-8/fan-fault-led-9/led_enable</bus_id>
+		<bus_id>PCA9552-1/PCA9552.gpio-3 => fanconn-13/fan-8/fan3-9/led_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>PCA9552-1/</source_path>
 		<source_target>PCA9552.gpio-3</source_target>
-		<dest_path>fanconn-13/fan-8/fan-fault-led-9/</dest_path>
+		<dest_path>fanconn-13/fan-8/fan3-9/</dest_path>
 		<dest_target>led_enable</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -88685,10 +88685,10 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>fanconn-10/fan-5/fan-fault-led-6/generic-logic-assoc => fanconn-10/fan-5/led_assoc_child</bus_id>
+		<bus_id>fanconn-10/fan-5/fan0-6/generic-logic-assoc => fanconn-10/fan-5/led_assoc_child</bus_id>
 		<bus_type>LOGICAL_ASSOCIATION</bus_type>
 		<cable>no</cable>
-		<source_path>fanconn-10/fan-5/fan-fault-led-6/</source_path>
+		<source_path>fanconn-10/fan-5/fan0-6/</source_path>
 		<source_target>generic-logic-assoc</source_target>
 		<dest_path>fanconn-10/fan-5/</dest_path>
 		<dest_target>led_assoc_child</dest_target>
@@ -88698,10 +88698,10 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>fanconn-11/fan-6/fan-fault-led-7/generic-logic-assoc => fanconn-11/fan-6/led_assoc_child</bus_id>
+		<bus_id>fanconn-11/fan-6/fan1-7/generic-logic-assoc => fanconn-11/fan-6/led_assoc_child</bus_id>
 		<bus_type>LOGICAL_ASSOCIATION</bus_type>
 		<cable>no</cable>
-		<source_path>fanconn-11/fan-6/fan-fault-led-7/</source_path>
+		<source_path>fanconn-11/fan-6/fan1-7/</source_path>
 		<source_target>generic-logic-assoc</source_target>
 		<dest_path>fanconn-11/fan-6/</dest_path>
 		<dest_target>led_assoc_child</dest_target>
@@ -88711,10 +88711,10 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>fanconn-12/fan-7/fan-fault-led-8/generic-logic-assoc => fanconn-12/fan-7/led_assoc_child</bus_id>
+		<bus_id>fanconn-12/fan-7/fan2-8/generic-logic-assoc => fanconn-12/fan-7/led_assoc_child</bus_id>
 		<bus_type>LOGICAL_ASSOCIATION</bus_type>
 		<cable>no</cable>
-		<source_path>fanconn-12/fan-7/fan-fault-led-8/</source_path>
+		<source_path>fanconn-12/fan-7/fan2-8/</source_path>
 		<source_target>generic-logic-assoc</source_target>
 		<dest_path>fanconn-12/fan-7/</dest_path>
 		<dest_target>led_assoc_child</dest_target>
@@ -88724,10 +88724,10 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>fanconn-13/fan-8/fan-fault-led-9/generic-logic-assoc => fanconn-13/fan-8/led_assoc_child</bus_id>
+		<bus_id>fanconn-13/fan-8/fan3-9/generic-logic-assoc => fanconn-13/fan-8/led_assoc_child</bus_id>
 		<bus_type>LOGICAL_ASSOCIATION</bus_type>
 		<cable>no</cable>
-		<source_path>fanconn-13/fan-8/fan-fault-led-9/</source_path>
+		<source_path>fanconn-13/fan-8/fan3-9/</source_path>
 		<source_target>generic-logic-assoc</source_target>
 		<dest_path>fanconn-13/fan-8/</dest_path>
 		<dest_target>led_assoc_child</dest_target>
@@ -91825,7 +91825,7 @@
 	<instance_name>fan</instance_name>
 	<position>5</position>
 	<child_id>led_assoc_child</child_id>
-	<child_id>fan-fault-led-6</child_id>
+	<child_id>fan0-6</child_id>
 	<child_id>presence-0</child_id>
 	<child_id>FAN_COUNTER_ROTATING-0</child_id>
 	<attribute>
@@ -91870,10 +91870,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>fan-fault-led-6</id>
+	<id>fan0-6</id>
 	<type>led-led-generic</type>
 	<is_root>false</is_root>
-	<instance_name>fan-fault-led</instance_name>
+	<instance_name>fan0</instance_name>
 	<position>6</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
@@ -92370,7 +92370,7 @@
 	<instance_name>fan</instance_name>
 	<position>6</position>
 	<child_id>led_assoc_child</child_id>
-	<child_id>fan-fault-led-7</child_id>
+	<child_id>fan1-7</child_id>
 	<child_id>presence-1</child_id>
 	<child_id>FAN_COUNTER_ROTATING-1</child_id>
 	<attribute>
@@ -92415,10 +92415,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>fan-fault-led-7</id>
+	<id>fan1-7</id>
 	<type>led-led-generic</type>
 	<is_root>false</is_root>
-	<instance_name>fan-fault-led</instance_name>
+	<instance_name>fan1</instance_name>
 	<position>7</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
@@ -92619,7 +92619,7 @@
 	<instance_name>fan</instance_name>
 	<position>7</position>
 	<child_id>led_assoc_child</child_id>
-	<child_id>fan-fault-led-8</child_id>
+	<child_id>fan2-8</child_id>
 	<child_id>presence-2</child_id>
 	<child_id>FAN_COUNTER_ROTATING-2</child_id>
 	<attribute>
@@ -92664,10 +92664,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>fan-fault-led-8</id>
+	<id>fan2-8</id>
 	<type>led-led-generic</type>
 	<is_root>false</is_root>
-	<instance_name>fan-fault-led</instance_name>
+	<instance_name>fan2</instance_name>
 	<position>8</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
@@ -92868,7 +92868,7 @@
 	<instance_name>fan</instance_name>
 	<position>8</position>
 	<child_id>led_assoc_child</child_id>
-	<child_id>fan-fault-led-9</child_id>
+	<child_id>fan3-9</child_id>
 	<child_id>presence-3</child_id>
 	<child_id>FAN_COUNTER_ROTATING-3</child_id>
 	<attribute>
@@ -92913,10 +92913,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>fan-fault-led-9</id>
+	<id>fan3-9</id>
 	<type>led-led-generic</type>
 	<is_root>false</is_root>
-	<instance_name>fan-fault-led</instance_name>
+	<instance_name>fan3</instance_name>
 	<position>9</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
