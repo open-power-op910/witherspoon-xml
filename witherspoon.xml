@@ -9840,7 +9840,7 @@
 	<id>/sys-0/node-0/motherboard-0/obusslot-0/gv100card-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>20</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -9994,7 +9994,7 @@
 	<id>/sys-0/node-0/motherboard-0/obusslot-1/gv100card-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>21</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -10148,7 +10148,7 @@
 	<id>/sys-0/node-0/motherboard-0/obusslot-2/gv100card-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>22</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -10302,7 +10302,7 @@
 	<id>/sys-0/node-0/motherboard-0/obusslot-3/gv100card-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>23</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -10456,7 +10456,7 @@
 	<id>/sys-0/node-0/motherboard-0/obusslot-4/gv100card-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>24</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -10610,7 +10610,7 @@
 	<id>/sys-0/node-0/motherboard-0/obusslot-5/gv100card-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>25</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
