@@ -17248,7 +17248,7 @@
 	</attribute>
 	<attribute>
 		<id>WOF_ENABLE_VRATIO</id>
-		<default>STEPPED</default>
+		<default>CALCULATED</default>
 	</attribute>
 	<attribute>
 		<id>WOF_POWER_LIMIT</id>
