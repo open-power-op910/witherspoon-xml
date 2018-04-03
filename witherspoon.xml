@@ -16029,6 +16029,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>ALLOW_CALLHOME_ESELS_TO_BMC</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
 		<id>ALL_MCS_IN_INTERLEAVING_GROUP</id>
 		<default>0x00</default>
 	</attribute>
