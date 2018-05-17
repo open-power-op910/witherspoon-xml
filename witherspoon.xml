@@ -16466,6 +16466,10 @@
 		<default>0x40000</default>
 	</attribute>
 	<attribute>
+		<id>MAX_VDD_CURRENT_READING</id>
+		<default>0xB284</default>
+	</attribute>
+	<attribute>
 		<id>MEM_MIRROR_PLACEMENT_POLICY</id>
 		<default>0</default>
 	</attribute>
@@ -17380,6 +17384,10 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>SYS</default>
+	</attribute>
+	<attribute>
+		<id>VDD_CURRENT_OVERFLOW_WORKAROUND_ENABLE</id>
+		<default>0x0001</default>
 	</attribute>
 	<attribute>
 		<id>VDM_DROOP_EXTREME_OVERRIDE</id>
